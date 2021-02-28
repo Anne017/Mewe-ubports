@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="icon.png" width="256px" alt="webtoons-web">
+  <img src="icon.png" width="256px">
   <br>
   <br>
   Unofficial Mewe app Web Client
