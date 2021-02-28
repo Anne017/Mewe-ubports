@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-28 14:08+0000\n"
+"PO-Revision-Date: 2021-02-08 20:52+0000\n"
+"Last-Translator: Anne017 <anneonyme017@openmailbox.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/AboutPage.qml:9
+msgid "About MeWe Mobile "
+msgstr "À propos de MeWe Mobile "
+
+#: ../qml/AboutPage.qml:10
+msgid "This is a MeWe Webapp for Ubuntu Touch."
+msgstr "Il s'agit de l'application Web pour Ubuntu Touch."
+
+#: ../qml/AboutPage.qml:20
+msgid ""
+"Copyright (c) 2021 <br> by Rudi Timmermans <br><br> E-Mail: <a href="
+"\"mailto://rudi.timmer@gmx.com\">rudi.timmer@gmx.com</a>"
+msgstr ""
+"Copyright (c) 2021 <br> par Rudi Timmermans <br><br> Courriel : <a href="
+"\"mailto://rudi.timmer@gmx.com\">rudi.timmer@gmx.com</a>"
+
+#: ../qml/AboutPage.qml:25
+msgid "<b>The MeWe Mobile app is not affiliated with MeWe.</b>"
+msgstr "<b>L'application Web MeWe n'est pas affilée avec MeWe.</b>"
+
+#: ../qml/AboutPage.qml:32
+msgid "Donate"
+msgstr "Faire un don"
+
+#: ../qml/AboutPage.qml:40 ../qml/AlertDialog.qml:13
+#: ../qml/ConfirmDialog.qml:15 ../qml/HttpAuthenticationDialog.qml:41
+#: ../qml/PromptDialog.qml:32
+msgid "OK"
+msgstr "Valider"
+
+#: ../qml/AlertDialog.qml:6
+msgid "JavaScript Alert"
+msgstr "Alerte JavaScript"
+
+#: ../qml/ConfirmDialog.qml:6
+msgid "JavaScript Confirmation"
+msgstr "Confirmation JavaScript"
+
+#: ../qml/ConfirmDialog.qml:23 ../qml/ContentDownloadDialog.qml:94
+#: ../qml/HttpAuthenticationDialog.qml:51 ../qml/PromptDialog.qml:43
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../qml/ContentDownloadDialog.qml:63
+msgid ""
+"Choose an application to open this file or add it to the downloads folder."
+msgstr ""
+"Choisssiez une application pour ouvrir ce fichier ou l'ajouter au dossier des téléchargements."
+
+#: ../qml/ContentDownloadDialog.qml:69
+msgid "Choose an application"
+msgstr "Choisir une application"
+
+#: ../qml/ContentDownloadDialog.qml:82
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../qml/HttpAuthenticationDialog.qml:7
+msgid "Authentication required."
+msgstr "Authentication nécessaire."
+
+#. TRANSLATORS: %1 refers to the URL of the current website and %2 is a string that the website sends with more information about the authentication challenge (technically called "realm")
+#: ../qml/HttpAuthenticationDialog.qml:9
+msgid "The website at %1 requires authentication. The website says \"%2\""
+msgstr "Le site internet %1 requiert une authentification. Le site internet dit \"%2\""
+
+#: ../qml/HttpAuthenticationDialog.qml:21
+msgid "Username"
+msgstr "Identifiant"
+
+#: ../qml/HttpAuthenticationDialog.qml:31
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../qml/MediaAccessDialog.qml:31
+msgid "Permission"
+msgstr "Permission"
+
+#: ../qml/MediaAccessDialog.qml:38
+msgid "Allow this domain to access your camera and microphone?"
+msgstr "Autoriser ce domaine à accéder à votre caméra et à votre microphone ?"
+
+#: ../qml/MediaAccessDialog.qml:39
+msgid "Allow this domain to access your camera?"
+msgstr "Autoriser ce domaine à accéder à votre caméra ?"
+
+#: ../qml/MediaAccessDialog.qml:40
+msgid "Allow this domain to access your microphone?"
+msgstr "Autoriser ce domaine à accéder à votre microphone ?"
+
+#. TRANSLATORS: %1 is the URL of the site requesting access to camera and/or microphone and %2 is the URL of the site that embeds it
+#: ../qml/MediaAccessDialog.qml:48
+msgid "%1 (embedded in %2)"
+msgstr "%1 (intégré dans %2)"
+
+#: ../qml/MediaAccessDialog.qml:72
+msgid "Yes"
+msgstr "Oui"
+
+#: ../qml/MediaAccessDialog.qml:83
+msgid "No"
+msgstr "Non"
+
+#: ../qml/PromptDialog.qml:7
+msgid "JavaScript Prompt"
+msgstr "Message de JavaScript"
+
+#: ../qml/SadPage.qml:27
+msgid "Oops, something went wrong."
+msgstr "Oups, une erreur s'est produite."
+
+#: ../qml/SadPage.qml:33
+msgid "Reload"
+msgstr "Actualiser"
+
+#: ../qml/SettingsPage.qml:11
+msgid "MeWe Mobile settings"
+msgstr "Paramètres de MeWe Mobile"
+
+#: ../qml/SettingsPage.qml:15
+msgid "Opening external link in"
+msgstr "Ouvrir le lien externe dans"
+
+#: ../qml/SettingsPage.qml:23
+msgid ""
+"* URLs under page information are not redirected to the external browser."
+msgstr ""
+"* Les liens sous les informations de la page ne sont pas redirigés vers le navigateur externe."
+
+#: ../qml/SettingsPage.qml:29
+msgid "External browser"
+msgstr "Navigateur externe"
+
+#: ../qml/SettingsPage.qml:30
+msgid "MeWe"
+msgstr "MeWe"
+
+#: ../qml/SettingsPage.qml:42
+msgid ""
+"* When you choose MeWe, you always need to use the Home key to return to "
+"your MeWe feed."
+msgstr ""
+"* Lorsque vous choisissez MeWe, vous devez toujours utiliser la touche accueil pour retourner à "
+"votre flux MeWe."
+
+#: ../qml/SettingsPage.qml:48
+msgid "Close"
+msgstr "Fermer"
+
+#: ../qml/actions/Copy.qml:22
+msgid "Copy"
+msgstr "Copier"
+
+#: ../qml/actions/CopyLink.qml:22
+msgid "Copy link"
+msgstr "Copier le lien"
+
+#: ../qml/actions/SaveImage.qml:22
+msgid "Save image"
+msgstr "Enregistrer l'image"
+
+#: ../qml/actions/SaveVideo.qml:4
+msgid "Save video"
+msgstr "Enregistrer la vidéo"
+
+#: ../qml/actions/Share.qml:4
+msgid "Share"
+msgstr "Partager"
+
+#: ../qml/actions/ShareLink.qml:22
+msgid "Share…"
+msgstr "Partager…"
