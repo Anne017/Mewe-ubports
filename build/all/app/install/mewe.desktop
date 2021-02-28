@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=MeWe Mobile
+Exec=qmlscene %u qml/Main.qml 
+Terminal=false
+Type=Application
+Icon=img/icon.png
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#FFFFFF
+X-Ubuntu-Splash-Image=icons/img.png
+X-Ubuntu-Default-Department-ID=communication
