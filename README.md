@@ -3,12 +3,10 @@
   <img src="img/icon.png" width="256px">
   <br>
   <br>
-  Unofficial Mewe app Web Client
+  Unofficial Mewe app web client for Ubuntu Touch OS
   <br>
   <br>
 </h1>
-
- Unofficial Mewe app web client for Ubuntu Touch OS
 
 ## License
 
