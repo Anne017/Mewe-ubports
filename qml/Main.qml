@@ -4,10 +4,8 @@ import Morph.Web 0.1
 import QtWebEngine 1.7
 import Ubuntu.Components 1.3
 import Ubuntu.Components.Popups 1.3
-import Ubuntu.UnityWebApps 0.1 as UnityWebApps
 import Ubuntu.Content 1.1
 import QtMultimedia 5.8
-import QtSystemInfo 5.0
 import Qt.labs.settings 1.0
 import "components"
 import "actions" as Actions
@@ -24,7 +22,7 @@ MainView {
         fill: parent
     }
 
-    applicationName: "meweut.totalsonic"
+    applicationName: "mewe.meweapp"
     anchorToKeyboard: true
     automaticOrientation: false
     property bool blockOpenExternalUrls: false
@@ -33,12 +31,8 @@ MainView {
     property bool popupBlockerEnabled: true
     property bool fullscreen: false
 
-    property string appVersion : "v1.0"
+    property string appVersion : "v1.1"
     property var myScreenPixelDensity: Screen.pixelDensity
-
-    property var settings: Settings {
-        property bool useInternalBrowser: false
-        }
 
     Page {
         id: page

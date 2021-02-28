@@ -1,5 +1,5 @@
 {
-    "name": "meweut.totalsonic",
+    "name": "mewe.meweapp",
     "description": "Unofficial MeWe WebApp",
     "architecture": "all",
     "title": "MeWe",
@@ -10,6 +10,6 @@
         }
     },
     "version": "1.1",
-    "maintainer": "Steven Berson <steve@totalsonic.net>",
-    "framework" : "ubuntu-sdk-16.04"
+    "maintainer": "Rudi Timmermans <rudi.timmer@gmx.com>",
+    "framework" : "ubuntu-sdk-16.04.4"
 }

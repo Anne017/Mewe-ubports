@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-35c771464bf2606d3847d22e586c75aa CMakeFiles/mewe.desktop
-ece846ed3cf6926e7552c2890318812b po/CMakeFiles/.pot
