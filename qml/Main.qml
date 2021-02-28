@@ -209,11 +209,7 @@ MainView {
             }
 
             onNewViewRequested: function(request) {
-              if (root.settings.useInternalBrowser) {
-                request.openIn(webview); 
-            } else {  
                 Qt.openUrlExternally(request.requestedUrl);
-               }
             }
                
             Loader {
