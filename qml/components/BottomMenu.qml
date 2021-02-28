@@ -29,7 +29,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/5
+            width: parent.width/6
             height: parent.height
 
             Icon {
@@ -49,7 +49,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/5
+            width: parent.width/6
             height: parent.height
 
             Icon {
@@ -69,7 +69,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/5
+            width: parent.width/6
             height: parent.height
 
             Icon {
@@ -89,7 +89,7 @@ Rectangle {
         }
 
         Item {
-            width: parent.width/5
+            width: parent.width/6
             height: parent.height
 
             Icon {
@@ -108,8 +108,29 @@ Rectangle {
             }
         }
 
+        Item {
+            width: parent.width/6
+            height: parent.height
+
+            Icon {
+                anchors.centerIn: parent
+                width: units.gu(3.2)
+                height: width
+                name: "settings"
+                color: "#000000"
+            }
+
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+                    PopupUtils.open(Qt.resolvedUrl("../SettingsPage.qml")
+                    )
+                }
+            }
+        }
+
          Item {
-            width: parent.width/5
+            width: parent.width/6
             height: parent.height
 
             Icon {

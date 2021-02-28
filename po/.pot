@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-28 13:23+0000\n"
+"POT-Creation-Date: 2021-02-28 14:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,6 +127,37 @@ msgstr ""
 
 #: ../qml/SadPage.qml:33
 msgid "Reload"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:11
+msgid "MeWe Mobile settings"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:15
+msgid "Opening external link in"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:23
+msgid ""
+"* URLs under page information are not redirected to the external browser."
+msgstr ""
+
+#: ../qml/SettingsPage.qml:29
+msgid "External browser"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:30
+msgid "MeWe"
+msgstr ""
+
+#: ../qml/SettingsPage.qml:42
+msgid ""
+"* When you choose MeWe, you always need to use the Home key to return to "
+"your MeWe feed."
+msgstr ""
+
+#: ../qml/SettingsPage.qml:48
+msgid "Close"
 msgstr ""
 
 #: ../qml/actions/Copy.qml:22

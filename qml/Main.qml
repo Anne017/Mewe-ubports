@@ -34,6 +34,10 @@ MainView {
     property string appVersion : "v1.1"
     property var myScreenPixelDensity: Screen.pixelDensity
 
+    property var settings: Settings {
+        property bool useInternalBrowser: false
+        }
+
     Page {
         id: page
         header: Rectangle {
@@ -209,7 +213,11 @@ MainView {
             }
 
             onNewViewRequested: function(request) {
+              if (root.settings.useInternalBrowser) {
+                request.openIn(webview); 
+            } else {  
                 Qt.openUrlExternally(request.requestedUrl);
+               }
             }
                
             Loader {
